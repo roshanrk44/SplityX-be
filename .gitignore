@@ -3,7 +3,24 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+# Secrets
+.env
 
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Maven
+target/
+
+# IntelliJ
+.idea
+*.iml
+
+# VS Code
+.vscode/
 ### STS ###
 .apt_generated
 .classpath
